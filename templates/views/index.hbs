@@ -3,23 +3,22 @@
 <html>
 
 <head>
-    <title>home</title>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <div class="main-content">
-        {{>header}}    
+        {{>header}}
 
         <p>Use this site to get your weather!</p>
+
         <form>
             <input placeholder="Location">
-            <button type="submit">
-                Search
-            </button>
+            <button>Search</button>
         </form>
 
-        
         <p id="message-1"></p>
         <p id="message-2"></p>
     </div>
